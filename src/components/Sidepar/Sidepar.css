@@ -1,0 +1,124 @@
+/* CSS للشريط الجانبي */
+.sidebar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: -3250px; /* بداية من اليسار لإخفاء الشريط */
+  width: 160px;
+  height: 100%;
+  background-color: rgb(218, 227, 243); /* لون خلفية الشريط */
+  color: white; /* لون النص */
+  padding: 20px; /* مسافة داخلية */
+  transition: left 0.3s ease;
+  gap: 15px;
+  flex-direction: column; /* ترتيب العناصر عموديًا */
+  align-items: flex-start; /* محاذاة العناصر على اليسار */
+  justify-content: flex-start; /* مسافة متساوية بين العناصر */
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  left: -1px; /* عندما يكون مفتوحًا */
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo1 {
+  width: 80%;
+  /* padding: 5% 0% 23% 27%; */
+}
+#Left {
+  color: black;
+}
+
+.forsearch {
+  position: relative;
+  width: 300px;
+}
+.searchside {
+  margin-top: -6%;
+}
+.inputnamesid {
+  width: 100%;
+  padding: 10%;
+  /* margin: 6% 0% 10% -8%; */
+  border: 1px solid #ccc;
+  border-radius: 29px;
+  background-color: rgba(1, 1, -1, 0.1);
+}
+.arins {
+  padding: 10px 6px 10px 25px;
+  margin-right: -20px;
+}
+/* .enins {
+  padding: 10px 26px 10px 7px;
+  margin: 5% 0% 7% -9%;
+  margin-right: 10px;
+} */
+.okside {
+  position: absolute;
+  border: 0;
+  background: none;
+  color: #867e7e;
+  right: 10px; /* المسافة بين الزر وحافة الحاوية اليمنى */
+  top: 50%; /* لجعل الزر في منتصف الحقل عموديًا */
+  transform: translateY(-50%); /* لضبط المركز العمودي للزر */
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.aroks {
+  margin: -1% 79% 0% 0%;
+}
+.enoks {
+}
+
+/* الشريط الجانبي في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .sidebar {
+    display: flex;
+    gap: 2%;
+    /* عرض الشريط الجانبي في الشاشات الصغيرة */
+  }
+}
+@media (min-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/*          ///////////////////////////////    ///////////// */
+/* جوالات صغيرة */
+@media (width<= 480px) {
+  .Left {
+    font-size: small;
+  }
+  .inputnamesid {
+    width: 100%;
+    padding: 10%;
+    border: 1px solid #ccc;
+    border-radius: 29px;
+    background-color: rgba(1, 1, -1, 0.1);
+  }
+  .okside {
+    top: 49%;
+    right: 1%;
+}
+}
+@media (width<= 768px) and (width> 480px) {
+  .inputnamesid {
+    width: 50%;
+    padding: 4% 8% 4% 4%;
+    border: 1px solid #ccc;
+    border-radius: 29px;
+    background-color: rgba(1, 1, -1, 0.1);
+  }
+  .okside {
+    top: 49%;
+    right: 37%;
+}
+}

@@ -1,0 +1,44 @@
+.cerA {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.cer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+.cer2 {
+  object-fit: fill;
+}
+@media (width<=480px) {
+  .cer2 {
+    margin-top: 9%;
+    width: 215px;
+    height: 295px;
+  }
+}
+/* جوالات  كبيرة */
+@media (width>480px) and (width<=768px) {
+  .cer2 {
+    margin-top: 12%;
+    width: 425px;
+    height: 522px;
+  }
+}
+@media (width>768px) and (width<=1024px) {
+  .cer2 {
+    margin-top: 10%;
+    width: 611px;
+    height: 667px;
+  }
+}
+@media (width>=1025px) and (width<=1920px) {
+  .cer2 {
+    margin-top: 10%;
+    width: 900px;
+    height: 962px;
+  }
+}

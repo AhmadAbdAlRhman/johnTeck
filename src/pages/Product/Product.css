@@ -1,0 +1,8 @@
+.app-container {
+  display: flex;
+  flex-direction: column; /* ترتيب العناصر عموديًا */
+  min-height: 100vh;
+  }
+  .ss{
+    flex: 1;
+  }

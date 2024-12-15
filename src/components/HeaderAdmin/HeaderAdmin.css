@@ -1,0 +1,39 @@
+.containA{
+    background-color: rgba(218, 227, 243);
+    margin: -7px;
+    box-shadow: 6px 0px 89px #fff;
+    border-bottom: 2px solid #fff
+}
+.navad{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nameAdmin{
+    padding: 10px 20px;
+    border-radius: 17px;
+    border: 2px solid white;
+    font-size: x-large;
+    margin-left: 2%;
+}
+.d-flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4%;
+}
+.button {
+    padding: 8px 20px;
+    color: #111010;
+    border-radius: 13px;
+    cursor: pointer;
+    border: 2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: x-large;
+}
+.button:hover{
+    background-color: rgb(38, 170, 194);
+    color: white;
+    border: 2px solid black;
+}

@@ -1,0 +1,264 @@
+.Showcard {
+  height: 374px;
+  width: auto;
+  margin: 3%;
+  padding: 0% 3%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(218, 227, 243);
+}
+.Showcard .imageUser {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(-10px 20px 5px rgba(11, 3, 3, 0.585));
+  object-fit: fill;
+  margin: -14% 0% 0% -7%;
+}
+.Stand {
+  margin: -14% 0% 0% -7%;
+  background-color: #c7c7ed;
+  border-radius: 11cap;
+}
+.Showcard .C1user {
+  background-color: rgba(218, 227, 243);
+  width: 25%;
+  height: 70%;
+}
+
+.Showcard .productdetailsuser {
+  width: 100%;
+  height: 82%;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+  margin-top: 0.2%;
+  margin-bottom: 0.2%;
+  margin-left: 10%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(38, 2, 2, 0.453);
+}
+
+.Showcard .productNameuser {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+  font-size: x-large;
+}
+
+.Showcard .PIuser {
+  width: 100%;
+  height: 90%;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-around;
+}
+.Showcard .pdfuser {
+  width: 97%;
+  height: 45%;
+  margin-top: 24%;
+}
+.Showcard .productdeDescriptionuser {
+  width: 59%;
+  font-size: x-large;
+  overflow-wrap: break-word;
+}
+
+.Showcard .C2user {
+  height: 80%;
+  width: 74%;
+  max-width: 866px;
+}
+
+.C2user .C3user {
+  width: 70%;
+  height: 20px;
+  overflow: hidden;
+  word-break: break-all;
+  padding: 0% 2% 10% 2%;
+  margin: 2% 0% 2% 16%;
+  font-size: calc(1rem + 0.5vw);
+}
+
+.C3user .linuser {
+  font-weight: bold;
+}
+/* جوالات صغيرة */
+@media (width<= 480px) {
+  .Showcard {
+    height: 168px;
+    display: block;
+    position: relative;
+  }
+
+  .Showcard .PIuser {
+    display: block;
+  }
+  .Showcard .productdetailsuser {
+    top: 6%;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    left: -4%;
+  }
+  .Showcard .productNameuser {
+    font-size: x-small;
+  }
+  .Showcard .pdfuser {
+    top: 78%;
+    size: 30%;
+    margin-top: 0%;
+    right: 50%;
+    position: absolute;
+    width: 8%;
+    height: 18%;
+  }
+  .Showcard .productdeDescriptionuser {
+    margin-top: 12%;
+    margin-left: 7%;
+    font-size: x-small;
+  }
+  .Showcard .C1user {
+    position: relative;
+  }
+  .Showcard .imageUser {
+    z-index: 2;
+    position: absolute;
+    height: 63%;
+    width: 100%;
+    margin: 53% 0% 0% 293%;
+  }
+
+  .C2user .C3user {
+    font-size: xx-small;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    top: 88%;
+    left: -8%;
+  }
+}
+/* جوالات  كبيرة */
+@media (width<= 768px) and (width> 480px) {
+  .Showcard {
+    height: 278px;
+    display: block;
+    position: relative;
+  }
+
+  .Showcard .PIuser {
+    display: block;
+  }
+  .Showcard .productdetailsuser {
+    top: 6%;
+    width: 90%;
+    position: absolute;
+    left: -4%;
+  }
+  .Showcard .productNameuser {
+    font-size: large;
+  }
+  .Showcard .pdfuser {
+    top: 78%;
+    size: 30%;
+    margin-top: 0%;
+    right: 50%;
+    position: absolute;
+    width: 8%;
+    height: 18%;
+  }
+  .Showcard .productdeDescriptionuser {
+    margin-top: 9%;
+    margin-left: 7%;
+    font-size: medium;
+  }
+  .Showcard .C1user {
+    position: relative;
+  }
+  .Showcard .imageUser {
+    z-index: 2;
+    position: absolute;
+    height: 68%;
+    width: 99%;
+    margin: 58% 0% 0% 293%;
+  }
+
+  .C2user .C3user {
+    font-size: medium;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    top: 88%;
+    left: -8%;
+  }
+}
+/* تابليت */
+@media (width<= 1024px) and (width> 768px) {
+  .Showcard {
+    height: 278px;
+  }
+  .Showcard .productdetailsuser {
+    width: 90%;
+    height: 89%;
+    margin-left: 11%;
+  }
+  .Showcard .productNameuser {
+    font-size: larger;
+  }
+  .Showcard .pdfuser {
+    width: 100%;
+    height: 38%;
+    margin-top: 63%;
+  }
+  .Showcard .productdeDescriptionuser {
+    margin-top: 7%;
+    font-size: larger;
+  }
+  .Showcard .imageUser {
+    margin: -7% 0% 0% 8%;
+  }
+  .C2user .C3user {
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    font-size: medium;
+    padding: 0% 0% 0% 7%;
+    margin: 1% 0% 2% 16%;
+  }
+}
+/* حواسيب  */
+@media (width<= 1920px) and (width>=1025px) {
+  .Showcard {
+    margin-bottom: 5%;
+    font-size: 1.5vw; /* حجم النص بشكل متناسب */
+  }
+  .Showcard .productdeDescriptionuser {
+    margin-top: 4%;
+    width: 70%;
+    max-height: 500px;
+    font-size: x-large;
+  }
+  .Showcard .productdetailsuser {
+    margin-left: 3%;
+  }
+  .Showcard .productNameuser {
+    word-wrap: break-word;
+  }
+  .C2user .C3user {
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    height: 20px;
+    overflow: hidden;
+    word-break: break-all;
+    padding: 0% 2% 10% 2%;
+    margin: 2% 0% 2% 16%;
+    font-size: calc(1rem + 0.5vw);
+  }
+}

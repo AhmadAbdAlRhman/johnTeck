@@ -1,0 +1,59 @@
+.contact-container {
+    margin: 10% 0%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: none; /* لون الخلفية */
+  }
+  
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color:  rgb(218, 227, 243);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    color: #007bff; /* لون الأيقونات */
+    margin-bottom: 10px;
+  }
+  
+  .contact-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-link {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* تغيير العناصر لتكون تحت بعضها */
+      align-items: center; /* توسيط العناصر في الوسط */
+    }
+  
+    .contact-item {
+      width: 90%; /* جعل العناصر تأخذ العرض الكامل تقريبًا */
+      margin-bottom: 20px; /* إضافة تباعد بين العناصر */
+    }
+  }

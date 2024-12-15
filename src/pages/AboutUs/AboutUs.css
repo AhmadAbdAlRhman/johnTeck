@@ -1,0 +1,28 @@
+.bodyAbout {
+  background-image: url("../../Assets/pro6.jpg") !important;
+  background-size: cover !important; /* لتغطية كامل الشاشة */
+  background-position: center !important;
+  background-repeat: no-repeat !important; /* عدم تكرار الصورة */
+  background-attachment: fixed !important; /* تثبيت الخلفية */
+  min-height: 100vh !important; /* يشغل الشاشة بالكامل */
+  margin: -0.54% !important; /* تعديل الهوامش */
+  /* padding: 0 !important; إزالة أي padding غير مرغوب فيه */
+  /* margin-top: 8% !important; */
+}
+.about{
+   flex: 1;
+   /* margin: 5%; */
+}
+/* @media (width<= 768px) and (width> 480px) {
+  .about{
+    flex: 1;
+    margin:15%;
+ }
+} */
+/* تابليت */
+@media (width<= 1024px) and (width> 768px) {
+  .about{
+    flex: 1;
+    /* margin-top: 30%; */
+ }
+}

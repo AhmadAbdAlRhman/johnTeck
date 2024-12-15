@@ -1,0 +1,142 @@
+.contentFooter {
+    background-color: #DAE3F3;
+    width: 100%;
+    /* position: relative; */
+}
+.allfooter {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(20%,1fr));
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.linkk {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.linkk:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+.d1 {
+  line-height: 14px;
+  /* background-color: blue; */
+}
+.lastfooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.lastfooter h6{
+  margin: 2% 0%;
+}
+.h3footer{
+  line-height: 1.4;
+  font-size: 1%;
+  white-space: nowrap;
+}
+.em{
+  font-size: small;
+}
+.top{
+  margin-top: 1%;
+}
+@media (width<= 480px) {
+  .allfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 0 2%;
+}
+.h3footer {
+  font-size: 1%;
+}
+.em {
+  margin: 0% 0%;
+  font-size: 8px;
+}
+.top{
+  margin-top: 2%;
+}
+.lastfooter {
+  font-size: x-small;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+}
+/* جوالات  كبيرة */
+@media (width<= 768px) and (width> 480px)  {
+  .allfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 0% 2%;
+}
+.h3footer {
+  margin: 0%;
+  font-size: small;
+}
+.em {
+  margin: 1% 0%;
+  font-size: 8px;
+}
+.top{
+  margin-top: 1%;
+}
+.lastfooter {
+  font-size: x-small;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+}
+@media (width<= 1024px) and (width> 768px) {
+  .allfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 0% 2%;
+}
+.h3footer {
+  margin: 0%;
+  font-size: small
+}
+.em{
+  margin: 2% 0%;
+  font-size: 11px;
+}
+.top{
+  margin-top: 1%;
+}
+.lastfooter {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+}
+@media (width<= 1920px) and (width>=1025px) {
+  .allfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2% 0% 2%;
+}
+.h3footer {
+  margin: 0%;
+  font-size: 21px;
+}
+.lastfooter h6 {
+  margin: 0% 0% 1% 0%;
+}
+.em {
+  margin: 7% 0%;
+  font-size: 16px;
+}
+.top{
+  margin-top: 1%;
+}
+.lastfooter {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+}

@@ -1,0 +1,32 @@
+.buttonSidBar{
+    /* background-color: #007bff; لون الخلفية */
+    color: white; /* لون النص */
+    padding: 10px 20px; /* مساحة داخلية */
+    border: none; /* إزالة الحدود */
+    border-radius: 5px; /* زوايا دائرية */
+    font-size: 16px; /* حجم الخط */
+    cursor: pointer; /* تغيير المؤشر عند التحويم */
+    transition: background-color 0.3s ease, transform 0.2s; /* تأثير الانتقال */
+
+  }
+
+  
+  .buttonSidBar {
+    display: none; /* إخفاء الزر بشكل افتراضي */
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    position: fixed; /* تأكد من أن الزر ثابت */
+    top: 10px; /* تحديد موقع الزر */
+    left: 10px; /* تحديد موقع الزر */
+    z-index: 10; /* تأكد من أن الزر يظهر فوق العناصر الأخرى */
+  }
+  
+  /* إظهار الزر في الشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .buttonSidBar {
+      display: block; /* إظهار الزر في الشاشات الصغيرة */
+    }
+  }

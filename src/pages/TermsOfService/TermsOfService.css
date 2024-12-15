@@ -1,0 +1,88 @@
+.termsall{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.termsOfService {
+    /* flex: 1; */
+    background-color: white;
+    padding: 5% 4%;
+    margin: 6% 11%;
+    box-shadow: 0 25px 32px rgba(38, 2, 2, 0.5);
+  }
+  
+  #H1termsOfService {
+    text-align: center;
+  }
+  .text1 {
+    padding: 0% 6%;
+    overflow-wrap: break-word;
+  }
+  #ptermsOfService {
+    padding: 2% 6%;
+  }
+  .h2p {
+    font-size: medium;
+  }
+  
+  @media (width<= 480px) {
+    #H1termsOfService {
+      font-size: large;
+    }
+    #ptermsOfService {
+      margin-top: -4%;
+      font-size: 41%;
+      padding: 0% 6%;
+    }
+    .text1 {
+      font-size: x-small;
+    }
+    .h2p {
+      font-size: smaller;
+    }
+  }
+  @media (width<= 768px) and (width> 480px) {
+    #H1termsOfService {
+      font-size: xx-large;
+    }
+    #ptermsOfService {
+      margin-top: -4%;
+      font-size: 56%;
+    }
+    .text1 {
+      font-size: small;
+    }
+    .h2p {
+      font-size: large;
+    }
+  }
+  @media (width<= 1024px) and (width> 768px) {
+    #H1termsOfService {
+      font-size: xxx-large;
+    }
+    #ptermsOfService {
+      margin-top: -7%;
+      font-size: 72%;
+    }
+  
+    .text1 {
+      font-size: medium;
+    }
+    .h2p {
+      font-size: x-large;
+    }
+  }@media (width<= 1920px) and (width>=1025px){
+      #H1termsOfService {
+          font-size: xxx-large;
+        }
+        #ptermsOfService {
+          margin-top: -5%;
+          font-size: 82%;
+      }
+        .text1 {
+          font-size: large;
+        }
+        .h2p {
+          font-size: x-large;
+        }
+  }

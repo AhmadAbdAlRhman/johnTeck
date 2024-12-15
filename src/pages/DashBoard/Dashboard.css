@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, rgba(255, 229, 0, 0.4), rgba(247, 255, 154, 0.4));
+}
+.cardd{
+    height: 300px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 3%;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgba(218, 227, 243);    
+}

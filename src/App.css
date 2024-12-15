@@ -1,0 +1,16 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body{
+  background-color: aqua;
+  flex-grow: 1;
+}
+.transparent-bg {
+  background-color: transparent;
+}
+
+.default-bg {
+  background-color: #f0f0f0; /* أو أي لون آخر */
+}

@@ -1,0 +1,60 @@
+.privall{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.privacyPolicy {
+    background-color: white;
+    padding: 5% 4%;
+    margin: 6% 11%;
+    box-shadow: 0 25px 32px rgba(38, 2, 2, 0.5);
+  }
+  
+  #H1privacy {
+    text-align: center;
+  }
+  .text1 {
+    padding: 0% 6%;
+    overflow-wrap: break-word;
+  }
+  #pprivacy {
+    padding: 2% 6%;
+  }
+  @media (width<= 480px) {
+    #H1privacy {
+      font-size: large;
+    }
+    #pprivacy {
+      margin-top: -4%;
+      font-size: 41%;
+      padding: 0% 6%;
+    }
+    
+    
+  }
+  @media (width<= 768px) and (width> 480px) {
+      #H1privacy {
+          font-size: xx-large;
+        }
+        #pprivacy {
+          margin-top: -4%;
+          font-size: 56%;
+        }}
+  
+  @media (width<= 1024px) and (width> 768px) {
+      #H1privacy {
+          font-size: xxx-large;
+        }
+        #pprivacy {
+          margin-top: -7%;
+      font-size: 72%;
+        }}
+  
+  @media (width<= 1920px) and (width>=1025px) {
+      #H1privacy {
+          font-size: xxx-large;
+        }
+        #pprivacy {
+          margin-top: -5%;
+          font-size: 82%;
+        }}

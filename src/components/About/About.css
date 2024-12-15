@@ -1,0 +1,83 @@
+.aboutus {
+  background-color: rgba(240, 249, 255, 0.4);
+  width: 50%;
+  height: auto;
+  margin: 2% 4%;
+  margin-left: 45%;
+  padding: 2%;
+  border: none;
+  display: grid;
+  gap: 7px;
+  font-size: 2vw;
+}
+#H3 {
+  display: flex;
+  text-align: center;
+  font-weight: 900;
+}
+.text4 {
+  /* overflow-wrap: break-word; كسر الكلمة تلقائيًا عند الحاجة */
+  /* word-break: break-all;  */
+  overflow-wrap: break-word;
+  /* font-size: 16px; */
+}
+@media (width<= 480px) {
+  .aboutus {
+    font-size: medium;
+    width: 68%;
+    margin: -2% 5%;
+    margin-bottom: 14%;
+    padding: 11%;
+    /* border: none; */
+    /* display: grid; */
+    /* gap: 7px; */
+  }
+  #H3 {
+    font-size: medium;
+    font-weight: bold;
+  }
+}
+@media (width<= 768px) and (width> 480px) {
+  .aboutus {
+    font-size: medium;
+    width: 74%;
+    margin: -3% 5%;
+    margin-bottom: 9%;
+    padding: 8%;
+    border: none;
+    display: grid;
+    gap: 7px;
+  }
+  #H3 {
+    font-size: x-large;
+    font-weight: bold;
+  }
+}
+@media (width<= 1024px) and (width> 768px) {
+  .aboutus {
+    margin-left: 41%;
+    margin-bottom: 10%;
+    margin-top: 11%;
+    padding: 10% 5% 16% 5%;
+}
+  #H3 {
+    font-size: x-large;
+    font-weight: bold;
+  }
+}
+@media (width<= 1920px) and (width>=1025px) {
+  .aboutus {
+    margin-left: 40%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    padding: 4% 4% 4% 4%;
+  }
+  #H3 {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .text4 {
+    overflow-wrap: break-word;
+    font-size: unset;
+  }
+}

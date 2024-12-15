@@ -1,0 +1,139 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DAE3F3  ;
+  opacity: 1;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+  padding: 0px 2%;
+  
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.transfers {
+  display: flex;
+  gap: 20px;
+}
+
+.linksss {
+  text-decoration: none;
+  color: #333;
+  padding: 4px 17px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.linksss:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.forsearchH {
+  display: flex;
+  align-items: center;
+}
+
+.inputname {
+  padding:20px 50px 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 29px;
+  /* margin-right: 10px; */
+  background-color: rgba(1, 1, -1, 0.1);
+}
+.arinp {
+  margin: 0% 543% 0% 0%;
+}
+.eninp{
+  margin-right: 10px;
+}
+.bsearch {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bsearch:hover {
+  background-color: #555;
+}
+/* Media Queries لتحسين التوافق مع أحجام الشاشات المختلفة */
+@media (max-width: 768px) {
+  .header {
+    display: none; }}
+
+  .searchdiv{
+    position: absolute;
+    /* bottom: 10px; */
+    top: 16%;
+
+    right: 0%;
+    display: flex;
+    margin-top: 0%;
+  }
+  .ok{
+    position: absolute;
+    right: 8%;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    color: #867e7e;
+    /* font-size: large; */
+  }
+  .enok{
+    margin-right: 10px;
+  }
+  .arok{
+    margin: 0% 543% 0% 0%;
+  }
+  .selectlinksss{
+    background: none;
+    border: 0;
+  }
+  .selectlinksss:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  @media (width<= 480px) {
+    #hoom {
+      margin: 0px 0px 9px -20px;
+    }
+    .linksss {
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 11px;
+    }
+  }
+  @media (width <=768px) and (width>480px) {
+    .linksss {
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 11px;
+    }
+  }
+  @media (width <=1024px) and (width>768px) {
+    #hoom {
+      margin: -9px 2px 25px -35px;
+    }
+    .linksss {
+      text-decoration: none;
+      color: #333;
+      font-size: 11px;
+      padding: 9px 5px 8px 2px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+  }
+  @media (width>=1025px) and (width<= 1920px) {
+    .linksss {
+      text-decoration: none;
+      color: #333;
+      padding: 4px 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+  }
